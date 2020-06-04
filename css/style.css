@@ -1,0 +1,274 @@
+
+/* ----------------- TAGOVI ---------------*/
+
+input[type="file"] {
+    display: none;
+}
+
+ body {
+  background-image: url(//www.toptal.com/designers/subtlepatterns/patterns/symphony.png);
+  background-position: bottom;
+  animation: 4s linear 0s infinite bp;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Montserrat', sans-serif;
+  color: #404040;
+}
+
+@keyframes bp {
+  from {
+    background-position:  198px 0;
+  }
+  
+  to {
+    background-position:  0 198px;
+  }
+}
+
+caption {
+  caption-side: top;
+  display: table-caption;
+  text-align: left;
+}
+
+div {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top:2%;
+  margin-bottom: 2%;
+  width: 75%;
+  border: 3px solid #40e0d0;
+  background-color: white;
+  padding: 2% 2% 2% 2%;
+}
+
+table {
+  align: center;
+  margin: 2% 3% 2% 2%;
+  padding: 2% 3% 2% 2%;
+}
+
+
+.odbijeni{
+  color: grey;
+}
+
+
+
+
+
+/* ----------------- KLASE ---------------*/
+.my_button{
+  background-color: #40e0d0; /* Turquoise */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.my_button:hover {background-color: #1fc7b9}
+
+.my_button:active {
+  background-color: #1fc7b9;
+  box-shadow: 0 5px #15847b;
+  transform: translateY(2px);
+}
+
+.search_button{
+  background-color: white; /* Turquoise */
+  border: none;
+  color: #595959;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+  float:center;
+  font-size: 300%;
+  border-radius: 50%;
+}
+
+.prihvati_odbaci{
+  margin-left:10px;
+  width: 90%;
+  float:center;
+}
+
+.middle_button{
+  margin-left: 40%;
+  width: 20%;
+  margin-bottom: 1%;
+  margin-top: 1%;
+}
+
+.middle_button2{
+  width: 20%;
+  margin-left:40%;
+  float:center;
+  margin-bottom: 1%;
+  margin-top: 1%;
+}
+
+.sredina{
+  width: 20%;
+  float:center;
+  margin-bottom: 1%;
+  margin-top: 1%;
+}
+
+.right_button{
+  width: 300px;
+  margin: -1% 2.5% 1% 0%;
+  float:right;
+}
+
+.button_group{
+  width:20%;
+  margin-bottom: 5%;
+  float: left;
+}
+
+.lijevi{ margin-left: 30%;}
+
+.unvisible_button{
+  background-color: rgb(255, 255, 255, 0.7);
+  width:20%;
+  margin-left:40%; 
+  border: none;
+  color: grey;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  float: center;
+}
+
+.unvisible_button:hover { background-color: rgb(255, 255, 255, 0.9);}
+
+.unvisible_button:active {
+  background-color: rgb(255, 255, 255, 0.9);
+  box-shadow: 0 5px white;
+  transform: translateY(2px);
+}
+
+
+.nice_input {
+  border: 0;
+  outline: 0;
+  border-bottom:2px solid #595959;
+  font-size:180%;
+  padding:.25em .5em .3125em;
+  color:grey; 
+  font-family: 'Rajdhani', sans-serif;
+}
+
+.nice_input_reg {
+  border: 0;
+  outline: 0;
+  border-bottom:2px solid #595959;
+  font-size:120%;
+  padding:.25em .5em .3125em;
+  color:grey; 
+  font-family: 'Rajdhani', sans-serif;
+}
+
+.boldaj {font-weight: bold;}
+
+.transparent_div {
+  opacity: 0.7;
+  border: 0;
+  margin-top: 50px;
+  margin-bottom: 50px;  
+}
+
+.textarea{
+  border: 0;
+  font-size: 120%;
+  border-bottom:2px solid #595959;
+  padding:.25em .5em .3125em;
+  color:grey; 
+  font-family: 'Rajdhani', sans-serif;
+}
+
+.ponuda {width: 100%;}
+
+.caption{caption-side: bottom;}
+
+.studenti{
+  padding: 10px 10px 10px 10px;
+  font-size: 150%;
+}
+
+.sakriveno{
+  padding: 10px 10px 10px 35px;
+  font-weight: bold;
+}
+
+.naslov{
+  cursor: pointer;
+}
+
+.prikaz_ponuda{
+  margin-top: 2%;
+  margin-bottom: 2%;
+  border:0.5px solid #40e0d0;
+}
+
+.ime_ponuda{
+  font-weight: bold;
+  font-size: 130%;
+  cursor: pointer;
+}
+
+.update{
+  text-align: center;
+  margin-top: 5%;
+}
+
+
+
+/* ----------------- ID ---------------*/
+
+#header{
+  padding: 30px 30px 50px 30px;
+  margin-top: 50px;
+  margin-bottom: 50px;  
+}
+
+#naslov{
+  text-align:center;
+  font-size: 400%;
+  cursor: pointer;
+  font-family: 'Bungee Shade', serif;
+  color: #595959;
+}
+
+#naslov:hover{
+  font-size: 500%;
+  font-family: 'Bungee Shade', serif;
+  color: #404040;
+}
+
+#ispisi_ime{
+  color: grey;
+  font-style: italic;
+  font-size: 120%;
+  font-weight: bold;
+}
+
+#gore_skroz{
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top:2%;
+    width: 75%;
+}
+
+
+
